@@ -1,2 +1,4 @@
-# golang-study
-Personal studies in the Go language
+# Golang Study
+My personal studies in the Go language
+
+http://codingbat.com
