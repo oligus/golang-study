@@ -11,7 +11,7 @@ import (
 // frontBack("ab") → "ba"
 
 func main() {
-	name := "Missing char"
+	name := "Front back"
 	fmt.Println(name, "1:", frontBack("code"))
 	fmt.Println(name, "2:", frontBack("a"))
 	fmt.Println(name, "3:", frontBack("ab"))

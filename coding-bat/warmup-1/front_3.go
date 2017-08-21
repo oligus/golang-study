@@ -13,7 +13,7 @@ import (
 // front3("abc") → "abcabcabc"
 
 func main() {
-	name := "Missing char"
+	name := "Front 3"
 	fmt.Println(name, "1:", front3("Java"))
 	fmt.Println(name, "2:", front3("Chocolate"))
 	fmt.Println(name, "3:", front3("abc"))
@@ -22,12 +22,11 @@ func main() {
 
 func front3(str string) string {
 	var front string
-	var length int
+
+	length :=  3
 
 	if len(str) < 3 {
 		length = len(str)
-	} else {
-		length = 3
 	}
 
 	fmt.Println(length)
