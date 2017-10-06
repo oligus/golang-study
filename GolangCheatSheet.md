@@ -4,7 +4,6 @@
 
 ##### Concatinate
 
-
 ```go
 str := "my cool string"
 str2 := "not " + str
@@ -17,3 +16,10 @@ str2 := strings.Join([]string{"not", str}, " ")
 
 Result:
 `str2` = `"not my cool string"` 
+
+##### Compare
+
+```go
+// Letter contains "e"
+letter == string('e') // true
+```
